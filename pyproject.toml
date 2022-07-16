@@ -6,7 +6,7 @@ authors = ["Sham <thesham@protonmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-disnake = "^2.4.0"
+disnake = "^2.5.1"
 python-dotenv = "^0.20.0"
 
 [tool.poetry.dev-dependencies]
