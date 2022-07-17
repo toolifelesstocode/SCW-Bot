@@ -17,5 +17,4 @@ class Tempest(InteractionBot):
             allowed_mentions=AllowedMentions(
                 everyone=False, users=True, roles=False, replied_user=True
             ),
-            owner_id=self.config.get("OWNER_ID"),
         )
