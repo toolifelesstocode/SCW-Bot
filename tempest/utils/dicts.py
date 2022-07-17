@@ -1,16 +1,11 @@
-import os
-from dotenv import load_dotenv
-load_dotenv()
-
-Token: str = os.environ.get("TOKEN")
-Faqs: dict[str, str] = {
+FAQS = {
     "How do I get roles?": "You can get roles by using the `/role` command, and selecting the role you want.",
     "How do I get the videos' source code?": "That's the neat part. You don't :p",
     "How do I become a moderator?": "You will have to wait for the staff applications to open. However you need to be active.",
     "Why is my name now Moderated Nickname?": "Your user-name was possibly un-pingable or was using the Zalgo font, which also isn't pingable."
 }
 
-Rules = {
+RULES = {
     "Rule 1": "Do not be a discriminatory to anyone — Such as, being racist, homophobic, transphobic, misogynistic, etc. — We want everyone to live how they want to live.",
     "Rule 2": "Do not spam in any channel.",
     "Rule 3": "Do not send anything that will flood channels — This applies for support channels too.",

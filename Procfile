@@ -1,1 +1,1 @@
-worker: python main.py
+worker: poetry run python -m tempest
