@@ -1,1 +1,1 @@
-worker: poetry run python -m tempest
+worker: python -m tempest
